@@ -1,0 +1,29 @@
+gcHi!
+
+As you may have encountered in order to run these .c files 
+you need to use the shell 
+
+Super easy though!
+
+1. Check to see if your're in the right dir
+ - write in ' pwd ' in the command line
+ -  Does it say ' /home/runner/Intro-to-C/C
+ - Yes? Great Move on to step 2
+ - No ? what ever you are missing cd in so..
+ - ' cd C '  to get into the file. 
+ - to check if you're right ' ls ' into the line
+ - All your files will be in there
+ 2. Woo so now that you're in the dir
+ - Put 'gcc fileName.c' enter 
+ (fileName meaning the file ur trying to use, aka like Hello.c)
+ - now ' ./a.out ' 
+ - and yay good to go 
+
+ If these steps did not work, check out my Wordpress 
+ https://ucfsi.wordpress.com/intro-to-c-with-julie/ 
+
+ Go to "Daily Notes" -> it will send you to a google drive w a doc 
+ "Commands to Know"
+
+ 
+ This should help more

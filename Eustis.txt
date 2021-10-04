@@ -1,0 +1,42 @@
+
+FOR MAC on terminal 
+
+
+Some commands you should know
+pl tab will print everything out for you
+
+java hello > output.txt - will output it out to your txt file
+
+To connect:
+ssh YOUR_NID@eustis.eecs.ucf.edu
+
+UCF Password:
+
+To copy a file into Eustis
+scp some_file.txt YOUR_NID@eustis.eecs.ucf.edu:~/
+
+To copy Folder
+scp -r MyProjectFolder YOUR_NID@eustis.eecs.ucf.edu:~/
+
+To Compile
+javac Source.java
+Java Source
+
+You can compile multiple source files, each of which has a main() method defined:
+javac Source.java Testing.java
+
+To combine commands together
+&&
+javac Welcome.java && java Welcome
+
+helpful command called diff for comparing the contents of two files
+diff output.txt solution.txt
+
+To delete a File:
+rm output.txt
+
+To delete a MyProjectFolder
+rm files -r
+
+To dump the contents of the file
+cat output.txt
